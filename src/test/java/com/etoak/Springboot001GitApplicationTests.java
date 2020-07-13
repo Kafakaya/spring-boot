@@ -16,7 +16,7 @@ class Springboot001GitApplicationTests {
         user.setId(1);user.setUserName("张三");
         user.setCreateTime(new Date());
         user.setPassword("1234");
-
+        System.out.println(123);
         Optional<User> optionalUser = Optional.of(user);
         /*optionalUser.ifPresent(new Consumer<User>() {
             @Override
